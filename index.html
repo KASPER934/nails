@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your perfect nails</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/css.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navigation">
+          <a href=""><img src="#" alt="logo" /></a>
+          <a href="#master" class="nav-button">Про майстра</a>
+          <a href="#slider" class="nav-button">Приклади робіт</a>
+          <a href="#pricelist" class="nav-button">Прайслист</a>
+          <a href="#callme" class="nav-button">Здійснити запис</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="hero">
+          <h1 class="mainText1">Your</h1>
+          <h1 class="mainText2">perfect</h1>
+          <h1 class="mainText3">nails</h1>
+          <img class="heart" src="./img/heart.png" alt="heart" />
+        </div>
+      </section>
+      <section id="master">
+        <div class="master">
+          <div class="divis">
+            <p>Рука починається не з плеча, а з нігтів</p>
+            <img class="smile" src="./img/smile.png" alt="smile" />
+          </div>
+          <div class="abouteMe">
+            <div class="master-photo">
+              <img src="./img/master.jpg" alt="master" />
+            </div>
+            <div class="abouteMe text">
+              <h2>Лера</h2>
+              <p>
+                Сертифікований майстер манікюру, креативна і готова до
+                здійснення нових незвичайних задумів від Вас. Готова завжди Вас
+                радувати якісним, оригінальним і недорогим манікюром
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="slider">
+        <div class="slider">
+          <h2>Приклади робіт</h2>
+          <div class="swiper" navigation="true">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./img/nails1.jpg" alt="style nails" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/nails2.jpg" alt="style nails" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/nails3.jpg" alt="style nails" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/nails4.jpg" alt="style nails" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/nails6.jpg" alt="style nails" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/nails7.jpg" alt="style nails" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/nails8.jpg" alt="style nails" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/nails9.jpg" alt="style nails" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/nails10.jpg" alt="style nails" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/nails11.jpg" alt="style nails" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/nails5.jpg" alt="style nails" />
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+      <section class="pricelist" id="pricelist">
+        <h2>Pricelist</h2>
+        <div class="price">
+          <table>
+            <tr>
+              <td class="procedur">Манікюр (комбі, класика, апарат)</td>
+              <td class="cena">250грн</td>
+            </tr>
+            <tr>
+              <td class="procedur">Нарощування гелем</td>
+              <td class="cena">700грн</td>
+            </tr>
+            <tr>
+              <td class="procedur">
+                Корекція/покриття гелем/гель-лак<br />(однотонний)
+              </td>
+              <td class="cena"><br />430грн</td>
+            </tr>
+            <tr>
+              <td class="procedur">Французький манікюр</td>
+              <td class="cena">480грн</td>
+            </tr>
+            <tr>
+              <td class="procedur">Нарощування одного нігтя</td>
+              <td class="cena">40грн</td>
+            </tr>
+            <tr>
+              <td class="procedur">Зняття покриття</td>
+              <td class="cena">150грн</td>
+            </tr>
+            <tr>
+              <td class="procedur">Чоловічий манікюр</td>
+              <td class="cena">300грн</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class="callme" id="callme">
+        <h2>
+          Для запису на сеанс зателефонуйте<br />
+          майстру або ж залиште свої дані і<br />
+          майстер Вас набере
+        </h2>
+        <div>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input
+              type="hidden"
+              name="access_key"
+              value="9ae8d3f1-79f2-425c-b452-d8848292534f"
+            />
+            <p>І’мя</p>
+            <input
+              type="text"
+              placeholder="Введіть своє ім'я"
+              required
+              autocomplete="off"
+              name="І’мя"
+            />
+            <p>Номер телефону</p>
+            <input
+              type="number"
+              placeholder="Введіть свій телефон"
+              required
+              autocomplete="off"
+              name="номер телефону"
+            /><br />
+            <p>Бажана процедура</p>
+            <div class="style">
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="процедура"
+                value="Манікюр (комбі, класика, апарат)"
+                id="1"
+              />
+              <label for="1" class="label"
+                >Манікюр (комбі, класика, апарат) </label
+              ><br />
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="процедура"
+                value="Нарощування гелем"
+                id="2"
+              />
+              <label for="2" class="label">Нарощування гелем</label><br />
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="процедура"
+                value="Корекція/покриття гелем/гель-лак (однотонний)"
+                id="3"
+              />
+              <label for="3" class="label"
+                >Корекція/покриття гелем/гель-лак (однотонний) </label
+              ><br />
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="процедура"
+                value="Французький манікюр"
+                id="4"
+              />
+              <label for="4" class="label">Французький манікюр</label><br />
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="процедура"
+                value="Нарощування одного нігтя"
+                id="5"
+              />
+              <label for="5" class="label">Нарощування одного нігтя</label
+              ><br />
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="процедура"
+                value="Зняття покриття"
+                id="6"
+              />
+              <label for="6" class="label">Зняття покриття</label><br />
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="процедура"
+                value="Чоловічий манікюр"
+                id="7"
+              />
+              <label for="7" class="label">Чоловічий манікюр</label><br />
+            </div>
+            <button type="submit" class="submit">Відправити</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="inst">
+        <img src="./img/inst icon.png" alt="inst icon" class="instIcon" />
+        <a
+          href="https://www.instagram.com/nail.lera.zp?igsh=MzBpeWk5bjd3dWt0"
+          target="_blank"
+          >Instagram</a
+        >
+      </div>
+      <br />
+      <div class="tg">
+        <img src="./img/tg icon.png" alt="tg icon" class="tgIcon" />
+        <a href="https://t.me/tanlrra" target="_blank">Telegram</a>
+      </div>
+      <br />
+      <a href="tel: +380505941518">Тел: +380 (50) 594 15 18</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="JS.js"></script>
+  </body>
+</html>
